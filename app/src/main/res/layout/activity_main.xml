@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/zamanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Zaman"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/picture1imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture2imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture3imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture4imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture5imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture6imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture7imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture8imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture9imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture10imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture11imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture12imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture13imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture14imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture15imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture16imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture17imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture18imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture19imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture20imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture21imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture22imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture23imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture24imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/picture25imageView"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:onClick="imageOnClick"
+            app:srcCompat="@drawable/kenny" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/puanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="end"
+        android:text="Puan:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        android:onClick="startButtonOnClick"
+        android:text="Başla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/againButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="againButtonOnClick"
+        android:text="Sıfırla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
